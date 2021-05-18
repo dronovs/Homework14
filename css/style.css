@@ -511,11 +511,11 @@ main {
   display: flex;
 }
 .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-name {
-  padding: 20px 42px;
+  padding: 20px 25px;
   box-sizing: border-box;
 }
 .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-email {
-  padding: 20px 42px;
+  padding: 20px 25px;
   box-sizing: border-box;
 }
 .contact .contact-wrapper .contact-forms-content textarea {
@@ -530,15 +530,14 @@ main {
   color: #fdfcf8;
   border-radius: 5px;
   width: 100%;
-  max-width: 580px;
+  max-width: 545px;
   box-sizing: border-box;
   display: inline-block;
-  border: 2px #ff3f40 solid;
 }
 .contact .contact-wrapper .contact-forms-content .contact-btn a {
   text-decoration: none;
   color: #fdfcf8;
-  padding: 25px 229px;
+  padding: 25px 200px;
   box-sizing: border-box;
   display: inline-block;
 }

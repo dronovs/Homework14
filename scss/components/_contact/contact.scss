@@ -33,12 +33,12 @@
             display: flex;
             .contact-name {
                 @extend %contacts-forms;
-                padding: 20px 42px;
+                padding: 20px 25px;
                 box-sizing: border-box;
             }
             .contact-email {
                 @extend %contacts-forms;
-                padding: 20px 42px;
+                padding: 20px 25px;
                 box-sizing: border-box;
             }
             
@@ -54,14 +54,13 @@
         @include buttons($padding: 5px 0px, $bg-color: $buttons-bg-color, $border: 2px $buttons-bg-color solid, $text-color: $subscribe-font-color);
         border-radius: 5px;
         width: 100%;
-        max-width: 580px;
+        max-width: 545px;
         box-sizing: border-box;
         display: inline-block;
-        border: 2px $buttons-bg-color solid;
         a {
             text-decoration: none;
             color: $subscribe-font-color;
-            padding: 25px 229px;
+            padding: 25px 200px;
             box-sizing: border-box;
             display: inline-block;
         }

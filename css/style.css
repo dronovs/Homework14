@@ -99,7 +99,6 @@ main {
   background-color: #e5e5e5;
   border: 0px;
   border-radius: 5px;
-  margin: 0 50px 50px 0px;
 }
 
 .header {
@@ -509,19 +508,28 @@ main {
 }
 .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs {
   display: flex;
+  width: 100%;
+  max-width: 522px;
 }
 .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-name {
-  padding: 20px 25px;
+  width: 50%;
+  padding: 20px 40px;
   box-sizing: border-box;
+  margin: 0px 50px 50px 0px;
 }
 .contact .contact-wrapper .contact-forms-content .contact-left-form .contact-inputs .contact-email {
-  padding: 20px 25px;
+  width: 50%;
+  padding: 20px 40px;
   box-sizing: border-box;
+  margin: 0px 0px 50px 0px;
 }
 .contact .contact-wrapper .contact-forms-content textarea {
   padding: 20px;
   box-sizing: border-box;
   resize: none;
+  width: 100%;
+  max-width: 522px;
+  margin-bottom: 50px;
 }
 .contact .contact-wrapper .contact-forms-content .contact-btn {
   padding: 5px 0px;
@@ -530,7 +538,7 @@ main {
   color: #fdfcf8;
   border-radius: 5px;
   width: 100%;
-  max-width: 545px;
+  max-width: 522px;
   box-sizing: border-box;
   display: inline-block;
 }

@@ -31,15 +31,21 @@
         margin-right: 110px;
         .contact-inputs {
             display: flex;
+            width: 100%;
+            max-width: 522px;
             .contact-name {
+                width: 50%;
                 @extend %contacts-forms;
-                padding: 20px 25px;
+                padding: 20px 40px;
                 box-sizing: border-box;
+                margin: 0px 50px 50px 0px;
             }
             .contact-email {
+                width: 50%;
                 @extend %contacts-forms;
-                padding: 20px 25px;
+                padding: 20px 40px;
                 box-sizing: border-box;
+                margin: 0px 0px 50px 0px;
             }
             
         }
@@ -49,12 +55,15 @@
         padding: 20px;
         box-sizing: border-box;
         resize: none;
+        width: 100%;
+        max-width: 522px;
+        margin-bottom: 50px;
     }
     .contact-btn {
         @include buttons($padding: 5px 0px, $bg-color: $buttons-bg-color, $border: 2px $buttons-bg-color solid, $text-color: $subscribe-font-color);
         border-radius: 5px;
         width: 100%;
-        max-width: 545px;
+        max-width: 522px;
         box-sizing: border-box;
         display: inline-block;
         a {
